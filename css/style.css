@@ -1,0 +1,146 @@
+/* 
+
+  =====================
+  =====================
+        Global CSS
+  =====================
+  =====================
+
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+  color: #191919;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5em;
+}
+
+/* 
+
+  =====================
+  =====================
+        Utility Classes
+  =====================
+  =====================
+
+
+*/
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.btn {
+  color: #fff;
+  background-color: #55b276;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0.6rem 2rem;
+  border-radius: 50px;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .btn {
+    padding: 0.4rem 1.5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 336px) {
+  .btn {
+    padding: 0.2rem 0.7rem;
+    font-size: 0.8rem;
+  }
+}
+
+/* 
+
+  =====================
+  =====================
+        Header CSS
+  =====================
+  =====================
+
+
+*/
+
+header {
+  width: 100%;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header #branding {
+  height: 70px;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    margin-bottom: 1rem;
+  }
+
+  header #branding {
+    height: 50px;
+  }
+}
+
+@media screen and (max-width: 336px) {
+  header #branding {
+    height: 30px;
+  }
+}
+/* 
+
+  =====================
+  =====================
+        Showcase CSS
+  =====================
+  =====================
+
+
+*/
+
+#showcase #showcase-image {
+  display: block;
+  width: 100%;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px #ccc;
+}
+
+@media screen and (max-width: 1200px) {
+  #showcase #showcase-image {
+    border-radius: 10px;
+  }
+}
